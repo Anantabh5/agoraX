@@ -1,0 +1,81 @@
+
+
+.home{
+    padding-bottom: 50px;
+    background: linear-gradient(to bottom right, rgb(102, 0, 255), rgb(33, 0, 109), rgb(87, 0, 127));
+    height: 100%;
+    position: relative;
+    width: 100%;
+    
+}
+.Ncont{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.landing{
+    position: relative;
+    z-index: 0;
+}
+.top{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.heading
+{
+    font-size:10px;
+    background: linear-gradient(to right, rgb(25, 22, 27), rgb(0, 0, 0));
+
+/* Clip the background to the text */
+-webkit-background-clip: text;
+background-clip: text;
+
+/* Set the text color to transparent */
+color: transparent;
+
+/* Apply the gradient as the text fill color */
+-webkit-text-fill-color: transparent;
+text-fill-color: transparent;
+}
+
+.light {
+    
+    height:15vh;
+    
+    padding: 50px;
+    position: relative;
+    display: inline-block;
+
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.light a{
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    
+}
+.light:hover{
+    cursor: pointer;
+    color: #f4f4f4;
+    
+    background: #4468b6;
+    box-shadow: 0 0 10px #3089af, 0 0 40px #8000dc, 0 0 80px #10d2ab  ;
+}
+.x{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.y{
+    color:#1c1442
+}

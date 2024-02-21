@@ -1,0 +1,33 @@
+import React from 'react';
+import Card from './Card';
+import Base2 from './Base2';
+
+const Services = () => {
+  const services = [
+    { id: 1, title: 'Blockchain Integration', description: 'Integrate blockchain for secure and transparent transactions' },
+    { id: 2, title: 'Smart Contract Automation', description: 'Automate contracts with smart contract technology' },
+    { id: 3, title: 'Supply Chain Visibility', description: 'Track and trace products across the supply chain' },
+    { id: 4, title: 'Fraud Prevention', description: 'Prevent fraud with blockchain-based authentication' },
+    { id: 5, title: 'Inventory Management', description: 'Efficiently manage inventory with blockchain solutions' },
+    { id: 6, title: 'Data Security', description: 'Ensure data security through blockchain encryption' },
+    { id: 7, title: 'Traceability Solutions', description: 'Implement traceability solutions for product authenticity' },
+    { id: 8, title: 'Supply Chain Optimization', description: 'Optimize supply chain processes with blockchain technology' },
+    { id: 9, title: 'Decentralized Finance (DeFi)', description: 'Explore DeFi solutions for supply chain financing' },
+    // Add more services as needed
+  ];
+
+  return (
+    <Base2>
+    <div className="container mx-auto p-20">
+      <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Our Services</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+        {services.map(service => (
+          <Card key={service.id} title={service.title} description={service.description} />
+        ))}
+      </div>
+    </div>
+    </Base2>
+  );
+};
+
+export default Services;
