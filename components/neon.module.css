@@ -44,16 +44,16 @@ text-fill-color: transparent;
 }
 
 .light {
+    display: flex;
+    text-align: center;
     
-    height:15vh;
-    
-    padding: 50px;
+    padding: 0px;
     position: relative;
     display: inline-block;
 
     padding: 15px 30px;
     color: #2196f3;
-    text-transform: uppercase;
+    
     letter-spacing: 1px;
     text-decoration: none;
     overflow: hidden;

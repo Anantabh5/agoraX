@@ -4,8 +4,8 @@ import Base from './Base'
 const Landing = () => {
   return (
     <Base>
-    <div className="min-h-screen pr-40 pl-40 pb-40">
-      <h1 className='text-white font-mono text-9xl text-violet-400'>agoraX </h1>
+    <div className="pt-20 min-h-screen pr-40 pl-40 pb-40">
+      <h1 className=' font-mono text-9xl text-violet-400'>agoraX </h1>
       <br/>
       <h2 className='text-white font-extralight text-5xl text-violet-400'> automate your supply chain</h2>
 
@@ -16,8 +16,8 @@ const Landing = () => {
       {/*first row*/}
       <div className="flex lg:flex-row mx-w-full sm:flex-col pt-20">
 
-        <img className='mx-auto max-w-full ' src="/1.png" style={{ height: '400px', objectFit: 'cover' }}/>
-         
+        <img className='mx-auto max-w-full  sm:top-70 md:top-10 xl:top-80 left-0 right-0 -translate-y-10 scroll-smooth animate-scale-105' src="/1.png" style={{ height: '400px', objectFit: 'cover' }}/>
+        
           <h1 className="font-bold text-3xl text-white ">Leading Supply Chain Management Solutions catering to small to big businesses and enterprises
           <br/> <br/>We enable YOU, to seemlessly track the entire life cycle of your products <br/><br/>      
           <h1 className='text-2xl text-black'>Utilizing the power of blockchain technology, we offer security and transparency, ensuring that every step of your supply chain is traceable and accountable.<br/> Rest assured that your valuable assets are protected from fraud, counterfeiting, and unauthorized access, giving you peace of mind and safeguarding your reputation.</h1></h1>

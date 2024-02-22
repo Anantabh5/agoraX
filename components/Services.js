@@ -18,14 +18,17 @@ const Services = () => {
 
   return (
     <Base2>
-    <div className="container mx-auto p-20">
+    <div className="p-20 container mx-auto ">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Our Services</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
         {services.map(service => (
           <Card key={service.id} title={service.title} description={service.description} />
         ))}
       </div>
+      <div class="mb-0 mt-20 h-2 w-full bg-gradient-to-r from-white to-indigo-700 animate-pulse w-full"></div>
+
     </div>
+    
     </Base2>
   );
 };
