@@ -52,7 +52,7 @@ const Landing = () => {
 />
           
         <h1 className="font-bold text-3xl text-white ">
-          <br/>Discover the next frontier in supply chain management with <span className='font-mono text-6xl text-violet-400'>agoraX</span><br/><br/> Tailored blockchain solutions providing unparalleled transparency, efficiency, and security for businesses of all sizes. <br/><br/>From procurement to delivery, we're committed to empowering organizations to thrive in an ever-evolving marketplace</h1>
+          <br/>Discover the next frontier in supply chain management with <span className='font-mono text-6xl text-violet-400'>agoraX</span><br/><br/> Tailored blockchain solutions providing unparalleled transparency, efficiency, and security for businesses of all sizes. <br/><br/>From procurement to delivery, we are committed to empowering organizations to thrive in an ever-evolving marketplace</h1>
               
         </div>
       </div>

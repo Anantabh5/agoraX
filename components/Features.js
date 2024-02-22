@@ -12,7 +12,7 @@ const Features = () => {
       <div className="flex flex-wrap justify-center items-center h-screen ">
   <ul className="w-full ">
     <li className="text-center text-3xl text-slate-500 hover:transition-transform hover:translate-x-3 hover:translate-y-4" style={{ position: 'absolute', top: '20%', left: '15%' }}>
-      <Image className='' src="/2.png" width={200} height={200} ></Image>
+      <Image className='' src="/2.png" width={200} height={200} alt=""></Image>
         Smart Contracts</li>
     <li className="text-center text-3xl text-red-100 hover:transition-transform hover:translate-y-3 hover:translate-x-3" style={{ position: 'absolute', top: '30%', left: '58%' }}><Image className='' src="/3.png" width={150} height={150} alt="" ></Image>Blockchain Technology</li>
     <li className="text-center text-3xl text-green-500 hover:transition-transform hover:translate-y-3 hover:translate-x-3" style={{ position: 'absolute', top: '50%', left: '9%' }}><Image className='' src="/4.png" width={150} height={150}  alt=""></Image>Security</li>
