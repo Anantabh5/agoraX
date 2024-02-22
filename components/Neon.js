@@ -1,6 +1,7 @@
 
 import React from 'react'
 import neon from './neon.module.css';
+import Image from 'next/image';
 
 const Neon = () => {
   return (
@@ -16,7 +17,11 @@ const Neon = () => {
 
          <div className='flex flex-row lg:flex-row sm:flex-col xs:flex-col'>
         <div className=' flex flex-row lg:flex-row sm:flex-col xs:flex-col fixed top-60 left-0 right-90 -translate-y-10 scroll-smooth animate-scale-105'>
-         <img className='mx-auto max-w-full ' src="/2.png" style={{ height: '200px', objectFit: 'cover' }}/>
+        <Image
+        className='' src="/2.png" width={300} height={300}>
+
+        </Image>
+        
          {/* <img className='mx-auto max-w-full mt-10 ml-96' src="/3.png" style={{ height: '300px', objectFit: 'cover' }}/> */}
          
         </div>
