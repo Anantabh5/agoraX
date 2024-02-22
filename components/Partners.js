@@ -22,6 +22,7 @@ const Partners = () => {
          <Image src="/8.png" width={400} height={200} alt=""></Image>
          
         </div>
+        
 
         </div>
 
@@ -30,6 +31,7 @@ const Partners = () => {
 
         </div>
     </div>
+    
    
     
     </div>

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Neon = () => {
   return (
-    <div  className={`font-extrabold  ${neon['Ncont']}  `}>
+    <div  className={`font-extrabold  ${neon['Ncont']}  max-w-full`}>
         <div  className={neon.home}>
         <div className={` max-w-full flex ${neon['top']}`}>
         

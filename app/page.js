@@ -18,7 +18,7 @@ const page = () => {
     
     <Neon/>
     <Landing />
-    <Gap />
+    <Spacing/>
     <Features/>
     
     

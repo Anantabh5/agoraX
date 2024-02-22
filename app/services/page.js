@@ -36,10 +36,10 @@ const services = () => {
 
   return (
     <Base2>
-    <div className="container mx-auto px-4 py-16 text-white">
+    <div className="container mx-auto px-4 py-16 text-white mx-w-full">
      
       <div className="flex flex-col items-center ">
-        <div className="px-40 text-5xl text-center font-bold mb-8 md:mb-0 text-white">
+        <div className="lg:px-44 text-5xl text-center font-bold mb-8 md:mb-0 text-white">
           Revolutionize Your Supply Chain with Secure, Transparent Blockchain Solutions.
         </div>
         <div>
