@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 const Nav = () => {
   return (
     <div className='max-w-full px-10 py-5 bg-gradient-to-t from-slate-300 shadow-lg z-10 to-white mx-w-full'>
@@ -21,7 +22,8 @@ const Nav = () => {
   </Link>
     </nav>
     <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-      <img src="./Y.png" width={200}/>
+      <Image src="/Y.png" alt="" width={200} height={200}></Image>
+
       <span className="ml-3 text-xl"></span>
     </a>
     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">

@@ -18,8 +18,8 @@ const Partners = () => {
          
         <div className='flex lg:flex-row mx-w-full sm:flex-col xs:flex-col'>
          
-         <Image src="/9.png" width={400} height={200}></Image>
-         <Image src="/8.png" width={400} height={200}></Image>
+         <Image src="/9.png" width={400} height={200} alt=""></Image>
+         <Image src="/8.png" width={400} height={200} alt=""></Image>
          
         </div>
 

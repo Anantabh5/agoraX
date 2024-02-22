@@ -1,4 +1,5 @@
 import Base2 from '@/components/Base2';
+import Image from 'next/image';
 import React from 'react';
 
 const services = () => {
@@ -42,7 +43,8 @@ const services = () => {
           Revolutionize Your Supply Chain with Secure, Transparent Blockchain Solutions.
         </div>
         <div>
-          <img src="4.png" style={{height:"300px"}} alt="Blockchain supply chain visualization" />
+          <Image src="/4.png" width={300} height={300} alt=""></Image>
+          
         </div>
         <div>
           
@@ -96,7 +98,8 @@ const services = () => {
           ))}
         </div>
             <div className='flex'>
-            <img src="3.png" className='mx-auto ' style={{height:"300px", objectFit: "cover"}} alt="Blockchain supply chain visualization" /> 
+              <Image src="/3.png" width={300} height={300} alt=""></Image>
+            
             </div>
         </div>
       </div>

@@ -52,7 +52,7 @@ function Footer() {
             <ul className="mt-4 flex space-x-4 flex-col ">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  <i className="fab fa-facebook">instagram</i>
+                  <i className="">instagram</i>
                 </a>
               </li>
               <li>
