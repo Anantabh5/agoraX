@@ -12,43 +12,37 @@ const Landing = () => {
 
       <div>
       {/*box*/}
-      <div className='flex flex-col'>   
-      
-      {/*first row*/}
-      <div className="flex lg:flex-row mx-w-full sm:flex-col pt-20">
-
+      <div className='flex flex-col mx-w-full'>   
       
 
-<Image
-  className='mx-auto max-w-full sm:top-70 md:top-10 xl:top-80 left-0 right-0 -translate-y-10 scroll-smooth animate-scale-105'
-  src="/1.png"
-  alt="Image description" // Add a descriptive alt text
-  layout="responsive" // Specify the layout
-  width={400} // Set the desired width
-  height={400} // Set the desired height
-  objectFit="cover" // Preserve the aspect ratio while covering the container
-  quality={80} // Adjust image quality for balance between size and clarity (optional)
-  
-/>
-
+      <div className="flex flex-col lg:flex-row mx-w-full sm:flex-col pt-20">
+      <Image
+        className='mx-auto max-w-full sm:top-70 md:top-10 xl:top-80 left-0 right-0 -translate-y-10 scroll-smooth animate-scale-105'
+        src="/1.png"
+        alt="Image description" 
+        layout="responsive" 
+        width={400} 
+        height={400} 
+        objectFit="cover" 
+        quality={80} 
         
+/>
           <h1 className="font-bold text-3xl text-white ">Leading Supply Chain Management Solutions catering to small to big businesses and enterprises
           <br/> <br/>We enable YOU, to seemlessly track the entire life cycle of your products <br/><br/>      
           <h1 className='text-2xl text-black'>Utilizing the power of blockchain technology, we offer security and transparency, ensuring that every step of your supply chain is traceable and accountable.<br/> Rest assured that your valuable assets are protected from fraud, counterfeiting, and unauthorized access, giving you peace of mind and safeguarding your reputation.</h1></h1>
         
         </div>
-        {/*second row*/}  
-      <div className="flex lg:flex-row-reverse mx-w-full sm:flex-col pt-20">
+         
+      <div className="flex flex-col lg:flex-row-reverse mx-w-full sm:flex-col pt-20">
             
       <Image
   className='mx-auto max-w-full'
   src="/5.png"
-  alt="Image description" // Add a descriptive alt text
-  layout="responsive" // Specify the layout
-  width={40} // Set the desired width
-  height={40} // Set the desired height
-  objectFit="cover" // Preserve the aspect ratio while covering the container
-  quality={80} // Adjust image quality for balance between size and clarity (optional)
+  alt="Image description"
+  width={400} 
+  height={40} 
+  objectFit="cover"
+  quality={80} 
 />
           
         <h1 className="font-bold text-3xl text-white ">

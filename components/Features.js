@@ -9,8 +9,8 @@ const Features = () => {
     <div className="group-hover">
       
         <h1 className="text-red-300 text-9xl p-20 animate-pop  hover:text-white animate-fade-in-down">Features</h1>
-      <div className="flex flex-wrap justify-center items-center h-screen ">
-  <ul className="w-full ">
+      <div className="flex flex-wrap justify-center items-center h-screen flex-col">
+  <ul className="w-full flex flex-col">
     <li className="text-center text-3xl text-slate-500 hover:transition-transform hover:translate-x-3 hover:translate-y-4" style={{ position: 'absolute', top: '20%', left: '15%' }}>
       <Image className='' src="/2.png" width={200} height={200} alt=""></Image>
         Smart Contracts</li>

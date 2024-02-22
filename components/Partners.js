@@ -16,7 +16,7 @@ const Partners = () => {
          </div>
 
          
-        <div className='flex lg:flex-row mx-w-full sm:flex-col xs:flex-col'>
+        <div className='flex fllex flex-col lg:flex-row mx-w-fulll'>
          
          <Image src="/9.png" width={400} height={200} alt=""></Image>
          <Image src="/8.png" width={400} height={200} alt=""></Image>
