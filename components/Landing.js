@@ -15,7 +15,7 @@ const Landing = () => {
       <div className='flex flex-col mx-w-full'>   
       
 
-      <div className="flex flex-col lg:flex-row mx-w-full sm:flex-col pt-20">
+      <div className="flex flex-col xs:flex-col lg:flex-row mx-w-full sm:flex-col pt-20">
       <Image
         className='mx-auto max-w-full sm:top-70 md:top-10 xl:top-80 left-0 right-0 -translate-y-10 scroll-smooth animate-scale-105'
         src="/1.png"
@@ -33,7 +33,7 @@ const Landing = () => {
         
         </div>
          
-      <div className="flex flex-col lg:flex-row-reverse mx-w-full sm:flex-col pt-20">
+      <div className="flex flex-col lg:flex-row-reverse mx-w-full xs:flex-col sm:flex-col pt-20">
             
       <Image
   className='mx-auto max-w-full'

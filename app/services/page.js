@@ -87,7 +87,7 @@ const services = () => {
       
       <div className="mt-16 px-20 ">
         <h2 className="text-3xl font-bold mb-8">What Our Clients Say</h2>
-        <div className='flex lg:flex-row xs:flex-col sm:flex-col'>
+        <div className='flex flex-col lg:flex-row xs:flex-col sm:flex-col'>
         <div className="carousel">
           
           {testimonials.map((testimonial) => (

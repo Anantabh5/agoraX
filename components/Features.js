@@ -23,9 +23,23 @@ const Features = () => {
     <li className="text-center text-3xl text-gray-500 hover transition-transform hover:translate-y-3 hover:translate-x-3" style={{ position: 'absolute', top: '50%', left: '83%' }}><Image className='' src="/9.png" width={150} height={150} alt=""></Image>Scalabililty</li>
   </ul>
 </div>
+
 <div class="h-2 mb-20 w-full bg-gradient-to-r from-blue-500 to-indigo-500 animate-pulse"></div>
 
     </div>
+    <div className="flex flex-col h-screen items-center justify-center">
+  {/* Container for list items */}
+  <div className="grid sm:grid-cols-2 xs:grid-cols-1 gap-4 grid-auto-rows h-full">
+    <li className="text-center text-3xl text-slate-500 hover:transition-transform hover:translate-x-3 hover:translate-y-4">
+      <Image className="" src="/2.png" width={200} height={200} alt="Smart Contracts" />
+      Smart Contracts
+    </li>
+    <li className="text-center text-3xl text-red-100 hover:transition-transform hover:translate-y-3 hover:translate-x-3">
+      <Image className="" src="/3.png" width={150} height={150} alt="Blockchain Technology" />
+      Blockchain Technology
+    </li>
+    </div>
+</div>
     </Base>
   );
 };
