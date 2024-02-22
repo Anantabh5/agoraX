@@ -25,7 +25,7 @@ const Services = () => {
           <Card key={service.id} title={service.title} description={service.description} />
         ))}
       </div>
-      <div class="mb-0 mt-20 h-2 w-full bg-gradient-to-r from-white to-indigo-700 animate-pulse w-full"></div>
+      <div className="mb-0 mt-20 h-2 w-full bg-gradient-to-r from-white to-indigo-700 animate-pulse w-full"></div>
 
     </div>
     
