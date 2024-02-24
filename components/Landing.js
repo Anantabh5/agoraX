@@ -9,7 +9,7 @@ const Landing = () => {
       <div className=''>
       <h1 className=' font-mono text-9xl text-violet-400 mx-w-full p'>agoraX </h1>
       <br/>
-      <h2 className='text-white font-extralight text-5xl ml-20 text-violet-400'> automate your supply chain</h2>
+      <h2 className='text-white font-extralight text-5xl  text-violet-400'>automate your supply chain</h2>
       </div>
       <div>
       {/*box*/}
@@ -34,16 +34,16 @@ const Landing = () => {
         
         </div>
          
-      <div className="flex flex-col lg:flex-row-reverse mx-w-full p-20 xs:flex-col sm:flex-col pt-20">
+      <div className="flex flex-col lg:flex-row-reverse mx-w-full p-20 xs:flex-col sm:flex-col ">
             
       <Image
-  className='mx-auto max-w-full transition-transform hover:translate-x-2 hover:translate-y-2'
-  src="/5.png"
-  alt="Image description"
-  width={400} 
-  height={40} 
-  objectFit="cover"
-  quality={80} 
+      className='mx-auto max-w-full transition-transform hover:translate-x-2 hover:translate-y-2'
+      src="/5.png"
+      alt="Image description"
+      width={400} 
+      height={40} 
+      objectFit="cover"
+      quality={80} 
 />
           
         <h1 className="font-bold text-3xl text-white ">

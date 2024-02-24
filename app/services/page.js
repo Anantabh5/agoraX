@@ -43,7 +43,7 @@ const services = () => {
           Revolutionize Your Supply Chain with Secure, Transparent Blockchain Solutions.
         </div>
         <div>
-          <Image src="/4.png" width={300} height={300} alt=""></Image>
+          <Image src="/4.png" className='transition-transform hover:-translate-x-2 hover:translate-y-2' width={300} height={300} alt=""></Image>
           
         </div>
         <div>
@@ -98,7 +98,7 @@ const services = () => {
           ))}
         </div>
             <div className='flex'>
-              <Image src="/3.png" width={300} height={300} alt=""></Image>
+              <Image src="/3.png" className='transition-transform hover:translate-x-2 hover:translate-y-2' width={300} height={300} alt=""></Image>
             
             </div>
         </div>
