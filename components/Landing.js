@@ -18,7 +18,7 @@ const Landing = () => {
 
       <div className="flex flex-col xs:flex-col lg:flex-row p-12">
       <Image
-        className=' mx-auto max-w-full '
+        className=' mx-auto max-w-full transition-transform hover:-translate-x-2 hover:translate-y-2 '
         src="/1.png"
         alt="Image description" 
         layout="responsive" 
@@ -37,7 +37,7 @@ const Landing = () => {
       <div className="flex flex-col lg:flex-row-reverse mx-w-full p-20 xs:flex-col sm:flex-col pt-20">
             
       <Image
-  className='mx-auto max-w-full'
+  className='mx-auto max-w-full transition-transform hover:translate-x-2 hover:translate-y-2'
   src="/5.png"
   alt="Image description"
   width={400} 

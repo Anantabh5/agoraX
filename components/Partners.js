@@ -16,10 +16,10 @@ const Partners = () => {
          </div>
 
          
-        <div className='flex fllex flex-col lg:flex-row mx-w-fulll'>
+        <div className='flex flex-col lg:flex-row mx-w-full mt-10 '>
          
-         <Image src="/9.png" width={400} height={200} alt=""></Image>
-         <Image src="/8.png" width={400} height={200} alt=""></Image>
+         <Image className="transition-transform hover:-translate-x-10 hover:translate-y-10" src="/9.png" width={400} height={200} alt=""></Image>
+         <Image className="transition-transform hover:translate-x-10 hover:translate-y-10" src="/8.png" width={400} height={200} alt=""></Image>
          
         </div>
         

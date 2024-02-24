@@ -18,7 +18,7 @@ const Neon = () => {
          <div className='flex flex-row lg:flex-row sm:flex-col xs:flex-col'>
         <div className=' flex flex-row lg:flex-row sm:flex-col xs:flex-col fixed top-60 left-0 right-90 -translate-y-10 scroll-smooth animate-scale-105'>
         <Image
-        className='' src="/2.png" width={300} height={300} alt="">
+        className='transition-transform hover:-translate-x-0 hover:-translate-y-5' src="/2.png" width={300} height={300} alt="">
 
         </Image>
         
