@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const Counting = () => {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(400);
   const counterRef = useRef(null);
 
   useEffect(() => {

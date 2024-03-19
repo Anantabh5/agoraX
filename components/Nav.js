@@ -22,7 +22,7 @@ const Nav = () => {
   </Link>
     </nav>
     <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-      <Image src="/Y.png" alt="" width={200} height={200}></Image>
+      <Image src="/Y.png"  className='w-auto' alt="" width={200} height={200}></Image>
 
       <span className="ml-3 text-xl"></span>
     </a>

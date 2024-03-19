@@ -18,16 +18,16 @@ const page = () => {
     
     <Neon/>
     <Landing />
-    <Spacing/>
-    <Features/>
+     <Spacing/>
+     <Features/>
     
     
     <Counting/>
-    <Services/>
-    <Spacing/>
-    <Gap text="sup nigga" imageSrc="/public/8.png" isLeftSlide={false}/>
+     <Services/>
+     <Spacing/>
+     <Gap text="" imageSrc="/public/8.png" isLeftSlide={false}/>
     <Partners/>
-    <Footer/>
+    <Footer/> 
     </div>
   )
 }

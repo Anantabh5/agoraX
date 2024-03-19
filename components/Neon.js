@@ -1,7 +1,9 @@
+'use client'
 
 import React from 'react'
 import neon from './neon.module.css';
 import Image from 'next/image';
+import { RevealWrapper } from 'next-reveal';
 
 const Neon = () => {
   return (
@@ -9,8 +11,8 @@ const Neon = () => {
         <div  className={neon.home}>
         <div className={` max-w-full flex ${neon['top']}`}>
         
-        
-        <h1 className="text-5xl text-white p-20">Gain Control,<span className='text-red-400 text-6xl'>  Build Trust</span></h1>
+        <RevealWrapper>
+        <h1 className="text-5xl text-white p-20">Gain Control,<span className='text-red-400 text-6xl'>  Build Trust</span></h1></RevealWrapper>
          <div className={neon.light} >         
         <a href = "#"><h1 className='animate-bounce'> Blockchain Services for Modern Enterprises</h1></a>       
          </div>

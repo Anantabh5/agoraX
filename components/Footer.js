@@ -70,6 +70,7 @@ function Footer() {
         </div>
         <div className="mt-8 text-center">
           <p className="text-gray-400">&copy; 2024 agoraX . All rights reserved.</p>
+          <h1 className='py-10 text-2xl text-white'>Crafted by <a href="https://github.com/leif-runescribe" target="_blank"><span className='text-gray-400 px-6 hover:text-indigo-300 text-4xl '>Anantabh Sahu</span></a></h1>
         </div>
       </div>
     </footer>

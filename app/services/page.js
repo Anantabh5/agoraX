@@ -1,6 +1,9 @@
+'use client'
 import Base2 from '@/components/Base2';
 import Image from 'next/image';
 import React from 'react';
+import Signup from './components/Signup';
+import { RevealWrapper } from 'next-reveal';
 
 const services = () => {
   
@@ -40,10 +43,10 @@ const services = () => {
      
       <div className="flex flex-col items-center ">
         <div className="lg:px-44 text-5xl text-center font-bold mb-8 md:mb-0 text-white">
-          Revolutionize Your Supply Chain with Secure, Transparent Blockchain Solutions.
+          <RevealWrapper> Revolutionize Your Supply Chain with Secure, Transparent Blockchain Solutions.</RevealWrapper>
         </div>
         <div>
-          <Image src="/4.png" className='transition-transform hover:-translate-x-2 hover:translate-y-2' width={300} height={300} alt=""></Image>
+          <RevealWrapper rotate={{x:0,y:0,z:0}} origin='right' delay={50} duration={1000} distance='500px' reset={true} ><Image src="/4.png" className='transition-transform hover:-translate-x-2 hover:translate-y-2' width={300} height={300} alt=""></Image></RevealWrapper>
           
         </div>
         <div>
@@ -72,6 +75,7 @@ const services = () => {
       <div className="grid px-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service) => (
           <div key={service.title} className="shadow-md rounded-lg p-6">
+            <RevealWrapper rotate={{x:0,y:0,z:0}} origin='right' delay={50} duration={1000} distance='500px' reset={true} >
             <i className={`text-5xl ${service.icon} mb-4`} />
             <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
             <p className="text-gray-200 text-xl">{service.description}</p>
@@ -79,7 +83,7 @@ const services = () => {
               <div className="mt-4">
                 <button className="btn btn-primary">See Case Studies</button>
               </div>
-            )}
+            )}</RevealWrapper>
           </div>
         ))}
       </div>
@@ -92,18 +96,20 @@ const services = () => {
           
           {testimonials.map((testimonial) => (
             <div key={testimonial.name} className="px-4 py-6">
+              <RevealWrapper rotate={{x:0,y:0,z:0}} origin='right' delay={50} duration={1000} distance='500px' reset={true} >
               <p className="text-gray-200 mb-4">{testimonial.quote}</p>
               <p className="text-sm font-bold">{testimonial.name}, {testimonial.company}</p>
+              </RevealWrapper>
             </div>
           ))}
         </div>
             <div className='flex'>
-              <Image src="/3.png" className='transition-transform hover:translate-x-2 hover:translate-y-2' width={300} height={300} alt=""></Image>
+              <RevealWrapper rotate={{x:0, y:0, z:0}}><Image src="/3.png" className='transition-transform hover:translate-x-2 hover:translate-y-2' width={300} height={300} alt=""></Image></RevealWrapper>
             
             </div>
         </div>
       </div>
-
+            <Signup/>
     </div>
     </Base2>
   )
