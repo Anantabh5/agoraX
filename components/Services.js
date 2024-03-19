@@ -24,8 +24,9 @@ const Services = () => {
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-6 py-8 pb-20">Our Services</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
         {services.map(service => (
+          <div key={service.id}>
           <RevealWrapper rotate={{x:0,y:0,z:10}} origin='right' delay={50} duration={1000} distance='50px' reset={true} viewOffset={{top:  25,  right:0,  bottom:  10,  left:5}}><Card key={service.id} title={service.title} description={service.description} /></RevealWrapper>
-        ))}
+       </div> ))}
       </div>
       <div className="mb-0 mt-20 h-2 w-full bg-gradient-to-r from-white to-indigo-700 animate-pulse w-full"></div>
 

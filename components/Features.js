@@ -96,6 +96,7 @@ const Features = () => {
               /></RevealWrapper>
               <h4 className="text-2xl font-semibold text-white ">Scalability</h4>
             </li>
+            <div className="py-8">hi</div>
 
       
     </div>
@@ -186,7 +187,10 @@ const Features = () => {
         <h4 className="text-2xl font-semibold text-white ">Scalability</h4>
       </li>
     </div>
+    <div className="py-8">hi</div>
+
 </div>
+
     </Base>
     
   );

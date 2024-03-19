@@ -60,7 +60,7 @@ const Landing = () => {
         
       </div>
       
-      <div className='items-center text-center 0 md:pr-0'><span className='text-4xl md:text-6xl  font-extrabold text-white'><br/> <RevealWrapper>your valuable assets are protected from </RevealWrapper><br/><br/> <span className='text-red-400'><RevealWrapper>fraud, counterfeiting, and unauthorized access</RevealWrapper></span> <br/><br/><span className='text-2xl'><RevealWrapper>giving you peace of mind </RevealWrapper></span></span></div>
+      <div className='items-center text-center 0 md:pr-0'><span className='text-4xl md:text-6xl  font-extrabold text-white'><br/> <RevealWrapper reset={true} viewOffset={{top:  5,  right:0,  bottom:  10,  left:5}}>your valuable assets are protected from </RevealWrapper><br/><br/> <span className='text-red-400'><RevealWrapper  reset={true} viewOffset={{top:  5,  right:0,  bottom:  10,  left:5}}>fraud, counterfeiting, and unauthorized access</RevealWrapper></span> <br/><br/><span className='text-2xl'><RevealWrapper  reset={true} viewOffset={{top:  5,  right:0,  bottom:  10,  left:5}}>giving you peace of mind </RevealWrapper></span></span></div>
       
       </div>
       
